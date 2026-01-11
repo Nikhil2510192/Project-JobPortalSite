@@ -7,7 +7,7 @@ import {
   UpdateCompanyProfile,
   getRecommendedUsersForJob,
   getCompanyJobs
-} from '../controllers/companyControllers.js'; 
+} from '../controllers/CompanyControllers.js'; 
 import { authenticate } from "../Middlewares/authMiddleware.js";
 
 const router = express.Router();
