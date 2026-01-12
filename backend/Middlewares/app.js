@@ -7,12 +7,12 @@ const app = express()
 
 // FIXED CORS configuration:
 const corsOptions = {
-  // Replace the wildcard '*' with your actual Netlify URL
-  origin: "https://69645caf9811cd3ee8bdd51b--jobboardingplatform.netlify.app", 
-  
-  // This is the missing piece causing your error
-  credentials: true, 
-  
+  // Allow both versions of your Netlify URL in an array
+  origin: [
+    "https://69645caf9811cd3ee8bdd51b--jobboardingplatform.netlify.app",
+    "https://69645caf9811cd3ee8bdd51b--jobboardingplatform.netlify.app/"
+  ],
+  credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
 };
