@@ -8,7 +8,7 @@ const app = express()
 // FIXED CORS configuration:
 const corsOptions = {
   // Replace the wildcard '*' with your actual Netlify URL
-  origin: "https://69645caf9811cd3ee8bdd51b--jobboardingplatform.netlify.app/", 
+  origin: "https://69645caf9811cd3ee8bdd51b--jobboardingplatform.netlify.app", 
   
   // This is the missing piece causing your error
   credentials: true, 
