@@ -9,8 +9,8 @@ const app = express()
 const corsOptions = {
   // Allow both versions of your Netlify URL in an array
   origin: [
-    "https://jobboardingplatform.netlify.app",
-    "https://jobboardingplatform.netlify.app/"
+    "https://dancing-figolla-45e8cf.netlify.app/",
+    "https://dancing-figolla-45e8cf.netlify.app"
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
