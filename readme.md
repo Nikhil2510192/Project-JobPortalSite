@@ -37,8 +37,8 @@ gemini api
 websockets
 
 
-frontend deployment link: https://696462c75714d74edb9c51e9--jobboardingplatform.netlify.app
-backend deployment link : https://project-jobportalsite-3fo4.onrender.com
+frontend deployment link: https://dancing-figolla-45e8cf.netlify.app/
+
 
 
 
